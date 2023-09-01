@@ -7,43 +7,54 @@
 .dice {
   text-align: center;
   display: inline-block;
+}
 
+.diceBox {
+  display: flex;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: yellow;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: large;
+  font-weight: bold;
 }
 
 body {
-  background-color: #D61355;
+  background-color: #d61355;
 }
 
 h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #FCE22A;
+  margin: 20px;
+  font-family: "Lobster", cursive;
+  text-shadow: 3px 0 #232931;
+  font-size: 4rem;
+  color: #fce22a;
 }
 
-h3{
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 3rem;
-  color: #FCE22A;
+h3 {
+  margin: 20px;
+  font-family: "Lobster", cursive;
+  text-shadow: 3px 0 #232931;
+  font-size: 2rem;
+  color: #fce22a;
 }
 
 p {
-  font-size: 2rem;
-  color: #FCE22A;
-  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  color: #fce22a;
+  font-family: "Indie Flower", cursive;
 }
 
 img {
-  width: 80%;
+  width: 50%; 
 }
 
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  font-family: "Indie Flower", cursive;
 }
